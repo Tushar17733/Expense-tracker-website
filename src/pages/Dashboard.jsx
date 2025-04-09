@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Header from '../components/Header';
-import ExpenseCard from '../components/ExpenseCard';
-import Graph from '../components/Graph';
-import TransactionList from '../components/TransactionList';
+import ExpenseCard from '../Components/ExpenseCard';
+import Graph from '../Components/Graph';
+import TransactionList from '../Components/TransactionList';
 
 const Dashboard = () => {
   const [transactions, setTransactions] = useState(() => {

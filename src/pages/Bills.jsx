@@ -1,5 +1,5 @@
 import React from 'react'
-import TransactionList from '../components/TransactionList'
+import TransactionList from '../Components/TransactionList'
 
 export default function Bills() {
   return (
