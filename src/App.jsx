@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Sidebar from './Components/Sidebar'
-import Header from './components/Header';
+import Sidebar from './Components/Sidebar';
+import Header from './Components/Header';
+
 import Dashboard from './pages/Dashboard';
 import Bills from './pages/Bills';
 import Expenses from './pages/Expenses';
